@@ -9,7 +9,10 @@
       <p class="card-text">{{heroeX.bio}}</p>
       <p class="card-text"><small class="text-muted">{{heroeX.aparicion}}</small></p>
 
-    <a [routerLink]="['/heroe:id']" class="btn btn-outline-primary btn-block">
+    <!-- <button (click)='verHeroe(i)' type="button" class="btn btn-outline-primary btn-block">
+      Ver más (click)
+    </button> -->
+    <a [routerLink]="['/heroe',i]" class="btn btn-outline-primary btn-block">
       Ver más [routerLink]
     </a>
 
